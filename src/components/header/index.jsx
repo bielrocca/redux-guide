@@ -22,8 +22,10 @@ function Header() {
   };
 
   const handleLoginClick = () => {
-    dispatch(loginUser({ name: "Felipe Rocha", email: "felipe@rocha.com" }));
+    dispatch(loginUser({ name: "Gabriel Lucas", email: "bielfefi@outlook.com" }));
   };
+
+  console.log({ currentUser })
 
   const handleLogoutClick = () => {
     dispatch(logoutUser());

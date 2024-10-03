@@ -1,16 +1,16 @@
 // Styles
-import * as Styles from "./styles";
+import * as S from "./styles";
 
 const Cart = ({ isVisible, setIsVisible }) => {
   const handleEscapeAreaClick = () => setIsVisible(false);
 
   return (
-    <Styles.CartContainer isVisible={isVisible}>
-      <Styles.CartEscapeArea onClick={handleEscapeAreaClick} />
-      <Styles.CartContent>
-        <Styles.CartTitle>Seu Carrinho</Styles.CartTitle>
-      </Styles.CartContent>
-    </Styles.CartContainer>
+    <S.CartContainer isVisible={isVisible}>
+      <S.CartEscapeArea onClick={handleEscapeAreaClick} />
+      <S.CartContent>
+        <S.CartTitle>Seu Carrinho</S.CartTitle>
+      </S.CartContent>
+    </S.CartContainer>
   );
 };
 
