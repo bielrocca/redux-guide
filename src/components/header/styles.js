@@ -8,6 +8,8 @@ export const Container = styled.div`
   color: #eee;
   padding: 20px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  position: sticky;
+  top: 0;
 `;
 
 export const Logo = styled.div`
